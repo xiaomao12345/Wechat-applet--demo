@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/shucheng/shucheng",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/flower/flower",
+    "pages/fenlei/fenlei",
+    "pages/xiangqing/xiangqing",
+    "pages/gengduo/gengduo",
+    "pages/gouwuche/gouwuche",
+    "pages/search/search",
+    "pages/wode/wode",
+    "pages/understand/understand",
+    "pages/jilu/jilu"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#305e79",
+    "navigationBarTitleText": "w时光书店",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#666"
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "connectSocket": 30000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "debug": true,
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#305e79",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "border-top": "1px solid #999",
+    "list": [
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "首页",
+        "iconPath": "images/首页-选中.png",
+        "selectedIconPath": "images/首页-选中(1).png"
+      },
+      {
+        "pagePath": "pages/shucheng/shucheng",
+        "text": "书城",
+        "iconPath": "images/书城(3).png",
+        "selectedIconPath": "images/书城(4).png"
+      },
+      {
+        "pagePath": "pages/gouwuche/gouwuche",
+        "text": "购物车",
+        "iconPath": "images/购物车(3).png",
+        "selectedIconPath": "images/购物车(5).png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/我的(1).png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
